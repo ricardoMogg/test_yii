@@ -56,22 +56,22 @@
   <apply executable="php" failonerror="true">
    <arg value="-l" />
 
-   <fileset dir="${basedir}/protected/controllers">
+   <fileset dir="${basedir}/yii/yiiApp/protected/controllers">
     <include name="**/*.php" />
     <modified />
    </fileset>
 
-   <fileset dir="${basedir}/protected/models">
+   <fileset dir="${basedir}/yii/yiiApp/protected/models">
     <include name="**/*.php" />
     <modified />
    </fileset>
 
-   <fileset dir="${basedir}/protected/views">
+   <fileset dir="${basedir}/yii/yiiApp/protected/views">
     <include name="**/*.php" />
     <modified />
    </fileset>
 
-   <fileset dir="${basedir}/protected/tests">
+   <fileset dir="${basedir}/yii/yiiApp/protected/tests">
     <include name="**/*.php" />
     <modified />
    </fileset>
@@ -83,7 +83,7 @@
   <exec executable="phploc">
    <arg value="--log-csv" />
    <arg value="${basedir}/build/logs/phploc.csv" />
-   <arg path="${basedir}/protected" />
+   <arg path="${basedir}/yii/yiiApp/protected" />
   </exec>
  </target>
 
@@ -93,7 +93,7 @@
    <arg value="--jdepend-xml=${basedir}/build/logs/jdepend.xml" />
    <arg value="--jdepend-chart=${basedir}/build/pdepend/dependencies.svg" />
    <arg value="--overview-pyramid=${basedir}/build/pdepend/overview-pyramid.svg" />
-   <arg path="${basedir}/protected" />
+   <arg path="${basedir}/yii/yiiApp/protected" />
   </exec>
  </target>
 
@@ -103,7 +103,7 @@
   <exec executable="phpcpd">
    <arg value="--log-pmd" />
    <arg value="${basedir}/build/logs/pmd-cpd.xml" />
-   <arg path="${basedir}/protected" />
+   <arg path="${basedir}/yii/yiiApp/protected" />
   </exec>
  </target>
 
@@ -122,7 +122,7 @@
    <arg value="--log" />
    <arg path="${basedir}/build/logs" />
    <arg value="--source" />
-   <arg path="${basedir}/protected" />
+   <arg path="${basedir}/yii/yiiApp/protected" />
    <arg value="--output" />
    <arg path="${basedir}/build/code-browser" />
   </exec>

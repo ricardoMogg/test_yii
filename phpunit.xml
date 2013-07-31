@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<phpunit bootstrap="protected/tests/bootstrap.php"
+<phpunit bootstrap="yii/yiiApp/protected/tests/bootstrap.php"
          backupGlobals="false"
          backupStaticAttributes="false"
          strict="true"
@@ -12,8 +12,8 @@
           timeoutForSmallTests="5">
   <testsuites>
     <testsuite name="Testing">
-      <directory>protected/tests/functional</directory>
-      <directory>protected/tests/unit</directory>
+      <directory>yii/yiiApp/protected/tests/functional</directory>
+      <directory>yii/yiiApp/protected/tests/unit</directory>
       <!--<directory suffix="Test.php">tests/application/end-to-end</directory>-->
     </testsuite>
   </testsuites>
@@ -29,9 +29,9 @@
 
   <filter>
     <whitelist addUncoveredFilesFromWhitelist="true">
-      <directory suffix=".php">protected</directory>
+      <directory suffix=".php">yii/yiiApp/protected</directory>
       <exclude>
-        <file>protected/tests/autoload.php</file>
+        <file>yii/yiiApp/protected/tests/autoload.php</file>
       </exclude>
     </whitelist>
   </filter>
