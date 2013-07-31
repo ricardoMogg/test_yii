@@ -1,0 +1,790 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>
+            Mayflower Code Browser - Source Code
+        </title>
+        <link rel="stylesheet" type="text/css" href="js/jquery.sidebar/css/codebrowser/sidebar.css" />
+        <link rel="stylesheet" type="text/css" href="css/global.css" />
+        <link rel="stylesheet" type="text/css" href="css/cruisecontrol.css" />
+        <link rel="stylesheet" type="text/css" href="css/review.css" />
+
+        <script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+        <script type="text/javascript" src="js/jquery.sidebar/jquery-ui-1.7.2.custom.min.js"></script>
+        <script type="text/javascript" src="js/jquery.sidebar/jquery.sidebar.js"></script>
+        <script type="text/javascript" src="js/jquery.cluetip/lib/jquery.hoverIntent.js"></script>
+        <script type="text/javascript" src="js/jquery.cluetip/lib/jquery.bgiframe.min.js"></script>
+        <script type="text/javascript" src="js/jquery.cluetip/jquery.cluetip.min.js"></script>
+
+        <script type="text/javascript" src="js/review.js"></script>
+    </head>
+    <body class="codebrowser">
+        <div class="header">
+            <a href="./index.html">Go back to index</a> |
+            <a href="http://github.com/mayflowergmbh/PHP_CodeBrowser">PHP CodeBrowser</a>
+        </div>
+        <hr/>
+        <div id="review">
+            <div class="filepath">
+                models/LoginForm.php            </div>
+
+            <ol class="code"><li id="line_1" class="odd"><span class="lineNumber">&nbsp;1&nbsp;</span><span>
+</span><span class="default">&lt;?php</span><a name="line_1"></a></li><li id="line_2" class="even"><span class="lineNumber">&nbsp;2&nbsp;</span><a name="line_2"></a></li><li id="line_3" class="odd"><span class="lineNumber">&nbsp;3&nbsp;</span><span class="comment">/**</span><a name="line_3"></a></li><li id="line_4" class="even"><span class="lineNumber">&nbsp;4&nbsp;</span><span class="comment">&nbsp;*&nbsp;LoginForm&nbsp;class.</span><a name="line_4"></a></li><li id="line_5" class="odd"><span class="lineNumber">&nbsp;5&nbsp;</span><span class="comment">&nbsp;*&nbsp;LoginForm&nbsp;is&nbsp;the&nbsp;data&nbsp;structure&nbsp;for&nbsp;keeping</span><a name="line_5"></a></li><li id="line_6" class="even"><span class="lineNumber">&nbsp;6&nbsp;</span><span class="comment">&nbsp;*&nbsp;user&nbsp;login&nbsp;form&nbsp;data.&nbsp;It&nbsp;is&nbsp;used&nbsp;by&nbsp;the&nbsp;'login'&nbsp;action&nbsp;of&nbsp;'SiteController'.</span><a name="line_6"></a></li><li id="line_7" class="odd"><span class="lineNumber">&nbsp;7&nbsp;</span><span class="comment">&nbsp;*/</span><a name="line_7"></a></li><li id="line_8" class="even"><span class="lineNumber">&nbsp;8&nbsp;</span><span class="keyword">class&nbsp;</span><span class="default">LoginForm&nbsp;</span><span class="keyword">extends&nbsp;</span><span class="default">CFormModel</span><a name="line_8"></a></li><li id="line_9" class="odd"><span class="lineNumber">&nbsp;9&nbsp;</span><span class="keyword">{</span><a name="line_9"></a></li><li id="line_10" class="even"><span class="lineNumber">10&nbsp;</span><span class="keyword">&nbsp;&nbsp;&nbsp;&nbsp;public&nbsp;</span><span class="default">$username</span><span class="keyword">;</span><a name="line_10"></a></li><li id="line_11" class="odd"><span class="lineNumber">11&nbsp;</span><span class="keyword">&nbsp;&nbsp;&nbsp;&nbsp;public&nbsp;</span><span class="default">$password</span><span class="keyword">;</span><a name="line_11"></a></li><li id="line_12" class="even"><span class="lineNumber">12&nbsp;</span><span class="keyword">&nbsp;&nbsp;&nbsp;&nbsp;public&nbsp;</span><span class="default">$rememberMe</span><span class="keyword">;</span><a name="line_12"></a></li><li id="line_13" class="odd"><span class="lineNumber">13&nbsp;</span><a name="line_13"></a></li><li id="line_14" class="even"><span class="lineNumber">14&nbsp;</span><span class="keyword">&nbsp;&nbsp;&nbsp;&nbsp;private&nbsp;</span><span class="default">$_identity</span><span class="keyword">;</span><a name="line_14"></a></li><li id="line_15" class="odd"><span class="lineNumber">15&nbsp;</span><a name="line_15"></a></li><li id="line_16" class="even"><span class="lineNumber">16&nbsp;</span><span class="keyword">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="comment">/**</span><a name="line_16"></a></li><li id="line_17" class="odd"><span class="lineNumber">17&nbsp;</span><span class="comment">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;Declares&nbsp;the&nbsp;validation&nbsp;rules.</span><a name="line_17"></a></li><li id="line_18" class="even"><span class="lineNumber">18&nbsp;</span><span class="comment">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;The&nbsp;rules&nbsp;state&nbsp;that&nbsp;username&nbsp;and&nbsp;password&nbsp;are&nbsp;required,</span><a name="line_18"></a></li><li id="line_19" class="odd"><span class="lineNumber">19&nbsp;</span><span class="comment">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;and&nbsp;password&nbsp;needs&nbsp;to&nbsp;be&nbsp;authenticated.</span><a name="line_19"></a></li><li id="line_20" class="even"><span class="lineNumber">20&nbsp;</span><span class="comment">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*/</span><a name="line_20"></a></li><li id="line_21" title='|
+                        &lt;div class="tooltip"&gt;
+                            &lt;div class="title CRAP"&gt;CRAP&lt;/div&gt;
+                            &lt;div class="text"&gt;2&lt;/div&gt;
+                        &lt;/div&gt;
+                        
+                        &lt;div class="tooltip"&gt;
+                            &lt;div class="title CRAP"&gt;CRAP&lt;/div&gt;
+                            &lt;div class="text"&gt;2&lt;/div&gt;
+                        &lt;/div&gt;
+                        ' class="odd hasIssues moreErrors"><span class="lineNumber">21&nbsp;</span><span class="comment">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="keyword">public&nbsp;function&nbsp;</span><span class="default">rules</span><span class="keyword">()</span><a name="line_21"></a></li><li id="line_22" title='|
+                        &lt;div class="tooltip"&gt;
+                            &lt;div class="title Coverage"&gt;Coverage&lt;/div&gt;
+                            &lt;div class="text"&gt;Not covered&lt;/div&gt;
+                        &lt;/div&gt;
+                        
+                        &lt;div class="tooltip"&gt;
+                            &lt;div class="title Coverage"&gt;Coverage&lt;/div&gt;
+                            &lt;div class="text"&gt;Not covered&lt;/div&gt;
+                        &lt;/div&gt;
+                        ' class="even hasIssues moreErrors"><span class="lineNumber">22&nbsp;</span><span class="keyword">&nbsp;&nbsp;&nbsp;&nbsp;{</span><a name="line_22"></a></li><li id="line_23" title='|
+                        &lt;div class="tooltip"&gt;
+                            &lt;div class="title Coverage"&gt;Coverage&lt;/div&gt;
+                            &lt;div class="text"&gt;Not covered&lt;/div&gt;
+                        &lt;/div&gt;
+                        
+                        &lt;div class="tooltip"&gt;
+                            &lt;div class="title Coverage"&gt;Coverage&lt;/div&gt;
+                            &lt;div class="text"&gt;Not covered&lt;/div&gt;
+                        &lt;/div&gt;
+                        ' class="odd hasIssues moreErrors"><span class="lineNumber">23&nbsp;</span><span class="keyword">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;array(</span><a name="line_23"></a></li><li id="line_24" title='|
+                        &lt;div class="tooltip"&gt;
+                            &lt;div class="title Coverage"&gt;Coverage&lt;/div&gt;
+                            &lt;div class="text"&gt;Not covered&lt;/div&gt;
+                        &lt;/div&gt;
+                        
+                        &lt;div class="tooltip"&gt;
+                            &lt;div class="title Coverage"&gt;Coverage&lt;/div&gt;
+                            &lt;div class="text"&gt;Not covered&lt;/div&gt;
+                        &lt;/div&gt;
+                        ' class="even hasIssues moreErrors"><span class="lineNumber">24&nbsp;</span><span class="keyword">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="comment">//&nbsp;username&nbsp;and&nbsp;password&nbsp;are&nbsp;required</span><a name="line_24"></a></li><li id="line_25" title='|
+                        &lt;div class="tooltip"&gt;
+                            &lt;div class="title Coverage"&gt;Coverage&lt;/div&gt;
+                            &lt;div class="text"&gt;Not covered&lt;/div&gt;
+                        &lt;/div&gt;
+                        
+                        &lt;div class="tooltip"&gt;
+                            &lt;div class="title Coverage"&gt;Coverage&lt;/div&gt;
+                            &lt;div class="text"&gt;Not covered&lt;/div&gt;
+                        &lt;/div&gt;
+                        ' class="odd hasIssues moreErrors"><span class="lineNumber">25&nbsp;</span><span class="comment">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="keyword">array(</span><span class="string">'username,&nbsp;password'</span><span class="keyword">,&nbsp;</span><span class="string">'required'</span><span class="keyword">),</span><a name="line_25"></a></li><li id="line_26" title='|
+                        &lt;div class="tooltip"&gt;
+                            &lt;div class="title Coverage"&gt;Coverage&lt;/div&gt;
+                            &lt;div class="text"&gt;Not covered&lt;/div&gt;
+                        &lt;/div&gt;
+                        
+                        &lt;div class="tooltip"&gt;
+                            &lt;div class="title Coverage"&gt;Coverage&lt;/div&gt;
+                            &lt;div class="text"&gt;Not covered&lt;/div&gt;
+                        &lt;/div&gt;
+                        ' class="even hasIssues moreErrors"><span class="lineNumber">26&nbsp;</span><span class="keyword">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="comment">//&nbsp;rememberMe&nbsp;needs&nbsp;to&nbsp;be&nbsp;a&nbsp;boolean</span><a name="line_26"></a></li><li id="line_27" title='|
+                        &lt;div class="tooltip"&gt;
+                            &lt;div class="title Coverage"&gt;Coverage&lt;/div&gt;
+                            &lt;div class="text"&gt;Not covered&lt;/div&gt;
+                        &lt;/div&gt;
+                        
+                        &lt;div class="tooltip"&gt;
+                            &lt;div class="title Coverage"&gt;Coverage&lt;/div&gt;
+                            &lt;div class="text"&gt;Not covered&lt;/div&gt;
+                        &lt;/div&gt;
+                        ' class="odd hasIssues moreErrors"><span class="lineNumber">27&nbsp;</span><span class="comment">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="keyword">array(</span><span class="string">'rememberMe'</span><span class="keyword">,&nbsp;</span><span class="string">'boolean'</span><span class="keyword">),</span><a name="line_27"></a></li><li id="line_28" title='|
+                        &lt;div class="tooltip"&gt;
+                            &lt;div class="title Coverage"&gt;Coverage&lt;/div&gt;
+                            &lt;div class="text"&gt;Not covered&lt;/div&gt;
+                        &lt;/div&gt;
+                        
+                        &lt;div class="tooltip"&gt;
+                            &lt;div class="title Coverage"&gt;Coverage&lt;/div&gt;
+                            &lt;div class="text"&gt;Not covered&lt;/div&gt;
+                        &lt;/div&gt;
+                        ' class="even hasIssues moreErrors"><span class="lineNumber">28&nbsp;</span><span class="keyword">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="comment">//&nbsp;password&nbsp;needs&nbsp;to&nbsp;be&nbsp;authenticated</span><a name="line_28"></a></li><li id="line_29" title='|
+                        &lt;div class="tooltip"&gt;
+                            &lt;div class="title Coverage"&gt;Coverage&lt;/div&gt;
+                            &lt;div class="text"&gt;Not covered&lt;/div&gt;
+                        &lt;/div&gt;
+                        
+                        &lt;div class="tooltip"&gt;
+                            &lt;div class="title Coverage"&gt;Coverage&lt;/div&gt;
+                            &lt;div class="text"&gt;Not covered&lt;/div&gt;
+                        &lt;/div&gt;
+                        ' class="odd hasIssues moreErrors"><span class="lineNumber">29&nbsp;</span><span class="comment">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="keyword">array(</span><span class="string">'password'</span><span class="keyword">,&nbsp;</span><span class="string">'authenticate'</span><span class="keyword">),</span><a name="line_29"></a></li><li id="line_30" title='|
+                        &lt;div class="tooltip"&gt;
+                            &lt;div class="title Coverage"&gt;Coverage&lt;/div&gt;
+                            &lt;div class="text"&gt;Not covered&lt;/div&gt;
+                        &lt;/div&gt;
+                        
+                        &lt;div class="tooltip"&gt;
+                            &lt;div class="title Coverage"&gt;Coverage&lt;/div&gt;
+                            &lt;div class="text"&gt;Not covered&lt;/div&gt;
+                        &lt;/div&gt;
+                        ' class="even hasIssues moreErrors"><span class="lineNumber">30&nbsp;</span><span class="keyword">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;);</span><a name="line_30"></a></li><li id="line_31" title='|
+                        &lt;div class="tooltip"&gt;
+                            &lt;div class="title Coverage"&gt;Coverage&lt;/div&gt;
+                            &lt;div class="text"&gt;Not covered&lt;/div&gt;
+                        &lt;/div&gt;
+                        
+                        &lt;div class="tooltip"&gt;
+                            &lt;div class="title Coverage"&gt;Coverage&lt;/div&gt;
+                            &lt;div class="text"&gt;Not covered&lt;/div&gt;
+                        &lt;/div&gt;
+                        ' class="odd hasIssues moreErrors"><span class="lineNumber">31&nbsp;</span><span class="keyword">&nbsp;&nbsp;&nbsp;&nbsp;}</span><a name="line_31"></a></li><li id="line_32" class="even"><span class="lineNumber">32&nbsp;</span><a name="line_32"></a></li><li id="line_33" class="odd"><span class="lineNumber">33&nbsp;</span><span class="keyword">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="comment">/**</span><a name="line_33"></a></li><li id="line_34" class="even"><span class="lineNumber">34&nbsp;</span><span class="comment">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;Declares&nbsp;attribute&nbsp;labels.</span><a name="line_34"></a></li><li id="line_35" class="odd"><span class="lineNumber">35&nbsp;</span><span class="comment">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*/</span><a name="line_35"></a></li><li id="line_36" title='|
+                        &lt;div class="tooltip"&gt;
+                            &lt;div class="title CRAP"&gt;CRAP&lt;/div&gt;
+                            &lt;div class="text"&gt;2&lt;/div&gt;
+                        &lt;/div&gt;
+                        
+                        &lt;div class="tooltip"&gt;
+                            &lt;div class="title CRAP"&gt;CRAP&lt;/div&gt;
+                            &lt;div class="text"&gt;2&lt;/div&gt;
+                        &lt;/div&gt;
+                        ' class="even hasIssues moreErrors"><span class="lineNumber">36&nbsp;</span><span class="comment">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="keyword">public&nbsp;function&nbsp;</span><span class="default">attributeLabels</span><span class="keyword">()</span><a name="line_36"></a></li><li id="line_37" title='|
+                        &lt;div class="tooltip"&gt;
+                            &lt;div class="title Coverage"&gt;Coverage&lt;/div&gt;
+                            &lt;div class="text"&gt;Not covered&lt;/div&gt;
+                        &lt;/div&gt;
+                        
+                        &lt;div class="tooltip"&gt;
+                            &lt;div class="title Coverage"&gt;Coverage&lt;/div&gt;
+                            &lt;div class="text"&gt;Not covered&lt;/div&gt;
+                        &lt;/div&gt;
+                        ' class="odd hasIssues moreErrors"><span class="lineNumber">37&nbsp;</span><span class="keyword">&nbsp;&nbsp;&nbsp;&nbsp;{</span><a name="line_37"></a></li><li id="line_38" title='|
+                        &lt;div class="tooltip"&gt;
+                            &lt;div class="title Coverage"&gt;Coverage&lt;/div&gt;
+                            &lt;div class="text"&gt;Not covered&lt;/div&gt;
+                        &lt;/div&gt;
+                        
+                        &lt;div class="tooltip"&gt;
+                            &lt;div class="title Coverage"&gt;Coverage&lt;/div&gt;
+                            &lt;div class="text"&gt;Not covered&lt;/div&gt;
+                        &lt;/div&gt;
+                        ' class="even hasIssues moreErrors"><span class="lineNumber">38&nbsp;</span><span class="keyword">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;array(</span><a name="line_38"></a></li><li id="line_39" title='|
+                        &lt;div class="tooltip"&gt;
+                            &lt;div class="title Coverage"&gt;Coverage&lt;/div&gt;
+                            &lt;div class="text"&gt;Not covered&lt;/div&gt;
+                        &lt;/div&gt;
+                        
+                        &lt;div class="tooltip"&gt;
+                            &lt;div class="title Coverage"&gt;Coverage&lt;/div&gt;
+                            &lt;div class="text"&gt;Not covered&lt;/div&gt;
+                        &lt;/div&gt;
+                        ' class="odd hasIssues moreErrors"><span class="lineNumber">39&nbsp;</span><span class="keyword">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="string">'rememberMe'</span><span class="keyword">=&gt;</span><span class="string">'Remember&nbsp;me&nbsp;next&nbsp;time'</span><span class="keyword">,</span><a name="line_39"></a></li><li id="line_40" title='|
+                        &lt;div class="tooltip"&gt;
+                            &lt;div class="title Coverage"&gt;Coverage&lt;/div&gt;
+                            &lt;div class="text"&gt;Not covered&lt;/div&gt;
+                        &lt;/div&gt;
+                        
+                        &lt;div class="tooltip"&gt;
+                            &lt;div class="title Coverage"&gt;Coverage&lt;/div&gt;
+                            &lt;div class="text"&gt;Not covered&lt;/div&gt;
+                        &lt;/div&gt;
+                        ' class="even hasIssues moreErrors"><span class="lineNumber">40&nbsp;</span><span class="keyword">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;);</span><a name="line_40"></a></li><li id="line_41" title='|
+                        &lt;div class="tooltip"&gt;
+                            &lt;div class="title Coverage"&gt;Coverage&lt;/div&gt;
+                            &lt;div class="text"&gt;Not covered&lt;/div&gt;
+                        &lt;/div&gt;
+                        
+                        &lt;div class="tooltip"&gt;
+                            &lt;div class="title Coverage"&gt;Coverage&lt;/div&gt;
+                            &lt;div class="text"&gt;Not covered&lt;/div&gt;
+                        &lt;/div&gt;
+                        ' class="odd hasIssues moreErrors"><span class="lineNumber">41&nbsp;</span><span class="keyword">&nbsp;&nbsp;&nbsp;&nbsp;}</span><a name="line_41"></a></li><li id="line_42" class="even"><span class="lineNumber">42&nbsp;</span><a name="line_42"></a></li><li id="line_43" class="odd"><span class="lineNumber">43&nbsp;</span><span class="keyword">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="comment">/**</span><a name="line_43"></a></li><li id="line_44" class="even"><span class="lineNumber">44&nbsp;</span><span class="comment">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;Authenticates&nbsp;the&nbsp;password.</span><a name="line_44"></a></li><li id="line_45" class="odd"><span class="lineNumber">45&nbsp;</span><span class="comment">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;This&nbsp;is&nbsp;the&nbsp;'authenticate'&nbsp;validator&nbsp;as&nbsp;declared&nbsp;in&nbsp;rules().</span><a name="line_45"></a></li><li id="line_46" class="even"><span class="lineNumber">46&nbsp;</span><span class="comment">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*/</span><a name="line_46"></a></li><li id="line_47" title='|
+                        &lt;div class="tooltip"&gt;
+                            &lt;div class="title CRAP"&gt;CRAP&lt;/div&gt;
+                            &lt;div class="text"&gt;12&lt;/div&gt;
+                        &lt;/div&gt;
+                        
+                        &lt;div class="tooltip"&gt;
+                            &lt;div class="title CRAP"&gt;CRAP&lt;/div&gt;
+                            &lt;div class="text"&gt;12&lt;/div&gt;
+                        &lt;/div&gt;
+                        ' class="odd hasIssues moreErrors"><span class="lineNumber">47&nbsp;</span><span class="comment">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="keyword">public&nbsp;function&nbsp;</span><span class="default">authenticate</span><span class="keyword">(</span><span class="default">$attribute</span><span class="keyword">,</span><span class="default">$params</span><span class="keyword">)</span><a name="line_47"></a></li><li id="line_48" title='|
+                        &lt;div class="tooltip"&gt;
+                            &lt;div class="title Coverage"&gt;Coverage&lt;/div&gt;
+                            &lt;div class="text"&gt;Not covered&lt;/div&gt;
+                        &lt;/div&gt;
+                        
+                        &lt;div class="tooltip"&gt;
+                            &lt;div class="title Coverage"&gt;Coverage&lt;/div&gt;
+                            &lt;div class="text"&gt;Not covered&lt;/div&gt;
+                        &lt;/div&gt;
+                        ' class="even hasIssues moreErrors"><span class="lineNumber">48&nbsp;</span><span class="keyword">&nbsp;&nbsp;&nbsp;&nbsp;{</span><a name="line_48"></a></li><li id="line_49" title='|
+                        &lt;div class="tooltip"&gt;
+                            &lt;div class="title Coverage"&gt;Coverage&lt;/div&gt;
+                            &lt;div class="text"&gt;Not covered&lt;/div&gt;
+                        &lt;/div&gt;
+                        
+                        &lt;div class="tooltip"&gt;
+                            &lt;div class="title Coverage"&gt;Coverage&lt;/div&gt;
+                            &lt;div class="text"&gt;Not covered&lt;/div&gt;
+                        &lt;/div&gt;
+                        ' class="odd hasIssues moreErrors"><span class="lineNumber">49&nbsp;</span><span class="keyword">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if(!</span><span class="default">$this</span><span class="keyword">-&gt;</span><span class="default">hasErrors</span><span class="keyword">())</span><a name="line_49"></a></li><li id="line_50" title='|
+                        &lt;div class="tooltip"&gt;
+                            &lt;div class="title Coverage"&gt;Coverage&lt;/div&gt;
+                            &lt;div class="text"&gt;Not covered&lt;/div&gt;
+                        &lt;/div&gt;
+                        
+                        &lt;div class="tooltip"&gt;
+                            &lt;div class="title Coverage"&gt;Coverage&lt;/div&gt;
+                            &lt;div class="text"&gt;Not covered&lt;/div&gt;
+                        &lt;/div&gt;
+                        ' class="even hasIssues moreErrors"><span class="lineNumber">50&nbsp;</span><span class="keyword">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</span><a name="line_50"></a></li><li id="line_51" title='|
+                        &lt;div class="tooltip"&gt;
+                            &lt;div class="title Coverage"&gt;Coverage&lt;/div&gt;
+                            &lt;div class="text"&gt;Not covered&lt;/div&gt;
+                        &lt;/div&gt;
+                        
+                        &lt;div class="tooltip"&gt;
+                            &lt;div class="title Coverage"&gt;Coverage&lt;/div&gt;
+                            &lt;div class="text"&gt;Not covered&lt;/div&gt;
+                        &lt;/div&gt;
+                        ' class="odd hasIssues moreErrors"><span class="lineNumber">51&nbsp;</span><span class="keyword">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="default">$this</span><span class="keyword">-&gt;</span><span class="default">_identity</span><span class="keyword">=new&nbsp;</span><span class="default">UserIdentity</span><span class="keyword">(</span><span class="default">$this</span><span class="keyword">-&gt;</span><span class="default">username</span><span class="keyword">,</span><span class="default">$this</span><span class="keyword">-&gt;</span><span class="default">password</span><span class="keyword">);</span><a name="line_51"></a></li><li id="line_52" title='|
+                        &lt;div class="tooltip"&gt;
+                            &lt;div class="title Coverage"&gt;Coverage&lt;/div&gt;
+                            &lt;div class="text"&gt;Not covered&lt;/div&gt;
+                        &lt;/div&gt;
+                        
+                        &lt;div class="tooltip"&gt;
+                            &lt;div class="title Coverage"&gt;Coverage&lt;/div&gt;
+                            &lt;div class="text"&gt;Not covered&lt;/div&gt;
+                        &lt;/div&gt;
+                        ' class="even hasIssues moreErrors"><span class="lineNumber">52&nbsp;</span><span class="keyword">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if(!</span><span class="default">$this</span><span class="keyword">-&gt;</span><span class="default">_identity</span><span class="keyword">-&gt;</span><span class="default">authenticate</span><span class="keyword">())</span><a name="line_52"></a></li><li id="line_53" title='|
+                        &lt;div class="tooltip"&gt;
+                            &lt;div class="title Coverage"&gt;Coverage&lt;/div&gt;
+                            &lt;div class="text"&gt;Not covered&lt;/div&gt;
+                        &lt;/div&gt;
+                        
+                        &lt;div class="tooltip"&gt;
+                            &lt;div class="title Coverage"&gt;Coverage&lt;/div&gt;
+                            &lt;div class="text"&gt;Not covered&lt;/div&gt;
+                        &lt;/div&gt;
+                        ' class="odd hasIssues moreErrors"><span class="lineNumber">53&nbsp;</span><span class="keyword">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="default">$this</span><span class="keyword">-&gt;</span><span class="default">addError</span><span class="keyword">(</span><span class="string">'password'</span><span class="keyword">,</span><span class="string">'Incorrect&nbsp;username&nbsp;or&nbsp;password.'</span><span class="keyword">);</span><a name="line_53"></a></li><li id="line_54" title='|
+                        &lt;div class="tooltip"&gt;
+                            &lt;div class="title Coverage"&gt;Coverage&lt;/div&gt;
+                            &lt;div class="text"&gt;Not covered&lt;/div&gt;
+                        &lt;/div&gt;
+                        
+                        &lt;div class="tooltip"&gt;
+                            &lt;div class="title Coverage"&gt;Coverage&lt;/div&gt;
+                            &lt;div class="text"&gt;Not covered&lt;/div&gt;
+                        &lt;/div&gt;
+                        ' class="even hasIssues moreErrors"><span class="lineNumber">54&nbsp;</span><span class="keyword">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span><a name="line_54"></a></li><li id="line_55" title='|
+                        &lt;div class="tooltip"&gt;
+                            &lt;div class="title Coverage"&gt;Coverage&lt;/div&gt;
+                            &lt;div class="text"&gt;Not covered&lt;/div&gt;
+                        &lt;/div&gt;
+                        
+                        &lt;div class="tooltip"&gt;
+                            &lt;div class="title Coverage"&gt;Coverage&lt;/div&gt;
+                            &lt;div class="text"&gt;Not covered&lt;/div&gt;
+                        &lt;/div&gt;
+                        ' class="odd hasIssues moreErrors"><span class="lineNumber">55&nbsp;</span><span class="keyword">&nbsp;&nbsp;&nbsp;&nbsp;}</span><a name="line_55"></a></li><li id="line_56" class="even"><span class="lineNumber">56&nbsp;</span><a name="line_56"></a></li><li id="line_57" class="odd"><span class="lineNumber">57&nbsp;</span><span class="keyword">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="comment">/**</span><a name="line_57"></a></li><li id="line_58" class="even"><span class="lineNumber">58&nbsp;</span><span class="comment">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;Logs&nbsp;in&nbsp;the&nbsp;user&nbsp;using&nbsp;the&nbsp;given&nbsp;username&nbsp;and&nbsp;password&nbsp;in&nbsp;the&nbsp;model.</span><a name="line_58"></a></li><li id="line_59" class="odd"><span class="lineNumber">59&nbsp;</span><span class="comment">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;@return&nbsp;boolean&nbsp;whether&nbsp;login&nbsp;is&nbsp;successful</span><a name="line_59"></a></li><li id="line_60" class="even"><span class="lineNumber">60&nbsp;</span><span class="comment">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*/</span><a name="line_60"></a></li><li id="line_61" title='|
+                        &lt;div class="tooltip"&gt;
+                            &lt;div class="title CRAP"&gt;CRAP&lt;/div&gt;
+                            &lt;div class="text"&gt;20&lt;/div&gt;
+                        &lt;/div&gt;
+                        
+                        &lt;div class="tooltip"&gt;
+                            &lt;div class="title CRAP"&gt;CRAP&lt;/div&gt;
+                            &lt;div class="text"&gt;20&lt;/div&gt;
+                        &lt;/div&gt;
+                        ' class="odd hasIssues moreErrors"><span class="lineNumber">61&nbsp;</span><span class="comment">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="keyword">public&nbsp;function&nbsp;</span><span class="default">login</span><span class="keyword">()</span><a name="line_61"></a></li><li id="line_62" title='|
+                        &lt;div class="tooltip"&gt;
+                            &lt;div class="title Coverage"&gt;Coverage&lt;/div&gt;
+                            &lt;div class="text"&gt;Not covered&lt;/div&gt;
+                        &lt;/div&gt;
+                        
+                        &lt;div class="tooltip"&gt;
+                            &lt;div class="title Coverage"&gt;Coverage&lt;/div&gt;
+                            &lt;div class="text"&gt;Not covered&lt;/div&gt;
+                        &lt;/div&gt;
+                        ' class="even hasIssues moreErrors"><span class="lineNumber">62&nbsp;</span><span class="keyword">&nbsp;&nbsp;&nbsp;&nbsp;{</span><a name="line_62"></a></li><li id="line_63" title='|
+                        &lt;div class="tooltip"&gt;
+                            &lt;div class="title Coverage"&gt;Coverage&lt;/div&gt;
+                            &lt;div class="text"&gt;Not covered&lt;/div&gt;
+                        &lt;/div&gt;
+                        
+                        &lt;div class="tooltip"&gt;
+                            &lt;div class="title Coverage"&gt;Coverage&lt;/div&gt;
+                            &lt;div class="text"&gt;Not covered&lt;/div&gt;
+                        &lt;/div&gt;
+                        ' class="odd hasIssues moreErrors"><span class="lineNumber">63&nbsp;</span><span class="keyword">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if(</span><span class="default">$this</span><span class="keyword">-&gt;</span><span class="default">_identity</span><span class="keyword">===</span><span class="default">null</span><span class="keyword">)</span><a name="line_63"></a></li><li id="line_64" title='|
+                        &lt;div class="tooltip"&gt;
+                            &lt;div class="title Coverage"&gt;Coverage&lt;/div&gt;
+                            &lt;div class="text"&gt;Not covered&lt;/div&gt;
+                        &lt;/div&gt;
+                        
+                        &lt;div class="tooltip"&gt;
+                            &lt;div class="title Coverage"&gt;Coverage&lt;/div&gt;
+                            &lt;div class="text"&gt;Not covered&lt;/div&gt;
+                        &lt;/div&gt;
+                        ' class="even hasIssues moreErrors"><span class="lineNumber">64&nbsp;</span><span class="keyword">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</span><a name="line_64"></a></li><li id="line_65" title='|
+                        &lt;div class="tooltip"&gt;
+                            &lt;div class="title Coverage"&gt;Coverage&lt;/div&gt;
+                            &lt;div class="text"&gt;Not covered&lt;/div&gt;
+                        &lt;/div&gt;
+                        
+                        &lt;div class="tooltip"&gt;
+                            &lt;div class="title Coverage"&gt;Coverage&lt;/div&gt;
+                            &lt;div class="text"&gt;Not covered&lt;/div&gt;
+                        &lt;/div&gt;
+                        ' class="odd hasIssues moreErrors"><span class="lineNumber">65&nbsp;</span><span class="keyword">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="default">$this</span><span class="keyword">-&gt;</span><span class="default">_identity</span><span class="keyword">=new&nbsp;</span><span class="default">UserIdentity</span><span class="keyword">(</span><span class="default">$this</span><span class="keyword">-&gt;</span><span class="default">username</span><span class="keyword">,</span><span class="default">$this</span><span class="keyword">-&gt;</span><span class="default">password</span><span class="keyword">);</span><a name="line_65"></a></li><li id="line_66" title='|
+                        &lt;div class="tooltip"&gt;
+                            &lt;div class="title Coverage"&gt;Coverage&lt;/div&gt;
+                            &lt;div class="text"&gt;Not covered&lt;/div&gt;
+                        &lt;/div&gt;
+                        
+                        &lt;div class="tooltip"&gt;
+                            &lt;div class="title Coverage"&gt;Coverage&lt;/div&gt;
+                            &lt;div class="text"&gt;Not covered&lt;/div&gt;
+                        &lt;/div&gt;
+                        ' class="even hasIssues moreErrors"><span class="lineNumber">66&nbsp;</span><span class="keyword">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="default">$this</span><span class="keyword">-&gt;</span><span class="default">_identity</span><span class="keyword">-&gt;</span><span class="default">authenticate</span><span class="keyword">();</span><a name="line_66"></a></li><li id="line_67" title='|
+                        &lt;div class="tooltip"&gt;
+                            &lt;div class="title Coverage"&gt;Coverage&lt;/div&gt;
+                            &lt;div class="text"&gt;Not covered&lt;/div&gt;
+                        &lt;/div&gt;
+                        
+                        &lt;div class="tooltip"&gt;
+                            &lt;div class="title Coverage"&gt;Coverage&lt;/div&gt;
+                            &lt;div class="text"&gt;Not covered&lt;/div&gt;
+                        &lt;/div&gt;
+                        ' class="odd hasIssues moreErrors"><span class="lineNumber">67&nbsp;</span><span class="keyword">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span><a name="line_67"></a></li><li id="line_68" title='|
+                        &lt;div class="tooltip"&gt;
+                            &lt;div class="title Coverage"&gt;Coverage&lt;/div&gt;
+                            &lt;div class="text"&gt;Not covered&lt;/div&gt;
+                        &lt;/div&gt;
+                        
+                        &lt;div class="tooltip"&gt;
+                            &lt;div class="title Coverage"&gt;Coverage&lt;/div&gt;
+                            &lt;div class="text"&gt;Not covered&lt;/div&gt;
+                        &lt;/div&gt;
+                        ' class="even hasIssues moreErrors"><span class="lineNumber">68&nbsp;</span><span class="keyword">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if(</span><span class="default">$this</span><span class="keyword">-&gt;</span><span class="default">_identity</span><span class="keyword">-&gt;</span><span class="default">errorCode</span><span class="keyword">===</span><span class="default">UserIdentity</span><span class="keyword">::</span><span class="default">ERROR_NONE</span><span class="keyword">)</span><a name="line_68"></a></li><li id="line_69" title='|
+                        &lt;div class="tooltip"&gt;
+                            &lt;div class="title Coverage"&gt;Coverage&lt;/div&gt;
+                            &lt;div class="text"&gt;Not covered&lt;/div&gt;
+                        &lt;/div&gt;
+                        
+                        &lt;div class="tooltip"&gt;
+                            &lt;div class="title Coverage"&gt;Coverage&lt;/div&gt;
+                            &lt;div class="text"&gt;Not covered&lt;/div&gt;
+                        &lt;/div&gt;
+                        ' class="odd hasIssues moreErrors"><span class="lineNumber">69&nbsp;</span><span class="keyword">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</span><a name="line_69"></a></li><li id="line_70" title='|
+                        &lt;div class="tooltip"&gt;
+                            &lt;div class="title Coverage"&gt;Coverage&lt;/div&gt;
+                            &lt;div class="text"&gt;Not covered&lt;/div&gt;
+                        &lt;/div&gt;
+                        
+                        &lt;div class="tooltip"&gt;
+                            &lt;div class="title Coverage"&gt;Coverage&lt;/div&gt;
+                            &lt;div class="text"&gt;Not covered&lt;/div&gt;
+                        &lt;/div&gt;
+                        ' class="even hasIssues moreErrors"><span class="lineNumber">70&nbsp;</span><span class="keyword">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="default">$duration</span><span class="keyword">=</span><span class="default">$this</span><span class="keyword">-&gt;</span><span class="default">rememberMe&nbsp;</span><span class="keyword">?&nbsp;</span><span class="default">3600</span><span class="keyword">*</span><span class="default">24</span><span class="keyword">*</span><span class="default">30&nbsp;</span><span class="keyword">:&nbsp;</span><span class="default">0</span><span class="keyword">;&nbsp;</span><span class="comment">//&nbsp;30&nbsp;days</span><a name="line_70"></a></li><li id="line_71" title='|
+                        &lt;div class="tooltip"&gt;
+                            &lt;div class="title Coverage"&gt;Coverage&lt;/div&gt;
+                            &lt;div class="text"&gt;Not covered&lt;/div&gt;
+                        &lt;/div&gt;
+                        
+                        &lt;div class="tooltip"&gt;
+                            &lt;div class="title Coverage"&gt;Coverage&lt;/div&gt;
+                            &lt;div class="text"&gt;Not covered&lt;/div&gt;
+                        &lt;/div&gt;
+                        ' class="odd hasIssues moreErrors"><span class="lineNumber">71&nbsp;</span><span class="comment">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="default">Yii</span><span class="keyword">::</span><span class="default">app</span><span class="keyword">()-&gt;</span><span class="default">user</span><span class="keyword">-&gt;</span><span class="default">login</span><span class="keyword">(</span><span class="default">$this</span><span class="keyword">-&gt;</span><span class="default">_identity</span><span class="keyword">,</span><span class="default">$duration</span><span class="keyword">);</span><a name="line_71"></a></li><li id="line_72" title='|
+                        &lt;div class="tooltip"&gt;
+                            &lt;div class="title Coverage"&gt;Coverage&lt;/div&gt;
+                            &lt;div class="text"&gt;Not covered&lt;/div&gt;
+                        &lt;/div&gt;
+                        
+                        &lt;div class="tooltip"&gt;
+                            &lt;div class="title Coverage"&gt;Coverage&lt;/div&gt;
+                            &lt;div class="text"&gt;Not covered&lt;/div&gt;
+                        &lt;/div&gt;
+                        ' class="even hasIssues moreErrors"><span class="lineNumber">72&nbsp;</span><span class="keyword">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;</span><span class="default">true</span><span class="keyword">;</span><a name="line_72"></a></li><li id="line_73" title='|
+                        &lt;div class="tooltip"&gt;
+                            &lt;div class="title Coverage"&gt;Coverage&lt;/div&gt;
+                            &lt;div class="text"&gt;Not covered&lt;/div&gt;
+                        &lt;/div&gt;
+                        
+                        &lt;div class="tooltip"&gt;
+                            &lt;div class="title Coverage"&gt;Coverage&lt;/div&gt;
+                            &lt;div class="text"&gt;Not covered&lt;/div&gt;
+                        &lt;/div&gt;
+                        ' class="odd hasIssues moreErrors"><span class="lineNumber">73&nbsp;</span><span class="keyword">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span><a name="line_73"></a></li><li id="line_74" title='|
+                        &lt;div class="tooltip"&gt;
+                            &lt;div class="title Coverage"&gt;Coverage&lt;/div&gt;
+                            &lt;div class="text"&gt;Not covered&lt;/div&gt;
+                        &lt;/div&gt;
+                        
+                        &lt;div class="tooltip"&gt;
+                            &lt;div class="title Coverage"&gt;Coverage&lt;/div&gt;
+                            &lt;div class="text"&gt;Not covered&lt;/div&gt;
+                        &lt;/div&gt;
+                        ' class="even hasIssues moreErrors"><span class="lineNumber">74&nbsp;</span><span class="keyword">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;else</span><a name="line_74"></a></li><li id="line_75" title='|
+                        &lt;div class="tooltip"&gt;
+                            &lt;div class="title Coverage"&gt;Coverage&lt;/div&gt;
+                            &lt;div class="text"&gt;Not covered&lt;/div&gt;
+                        &lt;/div&gt;
+                        
+                        &lt;div class="tooltip"&gt;
+                            &lt;div class="title Coverage"&gt;Coverage&lt;/div&gt;
+                            &lt;div class="text"&gt;Not covered&lt;/div&gt;
+                        &lt;/div&gt;
+                        ' class="odd hasIssues moreErrors"><span class="lineNumber">75&nbsp;</span><span class="keyword">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;</span><span class="default">false</span><span class="keyword">;</span><a name="line_75"></a></li><li id="line_76" title='|
+                        &lt;div class="tooltip"&gt;
+                            &lt;div class="title Coverage"&gt;Coverage&lt;/div&gt;
+                            &lt;div class="text"&gt;Not covered&lt;/div&gt;
+                        &lt;/div&gt;
+                        
+                        &lt;div class="tooltip"&gt;
+                            &lt;div class="title Coverage"&gt;Coverage&lt;/div&gt;
+                            &lt;div class="text"&gt;Not covered&lt;/div&gt;
+                        &lt;/div&gt;
+                        ' class="even hasIssues moreErrors"><span class="lineNumber">76&nbsp;</span><span class="keyword">&nbsp;&nbsp;&nbsp;&nbsp;}</span><a name="line_76"></a></li><li id="line_77" class="odd"><span class="lineNumber">77&nbsp;</span><span class="keyword">}</span><span>
+</span><a name="line_77"></a></li></ol>
+            
+            <div id="sidebar">
+                <table cellpadding="3">
+                    <thead>
+                        <tr>
+                            <th width="40px" align="center">
+                                <strong>start</strong>
+                            </th>
+                            <th width="40px" align="center">
+                                <strong>end</strong>
+                            </th>
+                            <th>
+                                <strong>comment</strong>
+                            </th>
+                            <th width="120px">
+                                <strong>type of error</strong>
+                            </th>
+                            <th width="60px">
+                                <strong>severity</strong>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        
+                        <tr class="Coverage">
+                            <td align="center">
+                                <a href="#line_22" onclick="switchLine('line_22')">
+                                22</a>
+                            </td>
+                            <td align="center">
+                                <a href="#line_31" onclick="switchLine('line_22'); new Effect.Highlight('line_22-31', {duration: 1.5}); return false">
+                                31</a>
+                            </td>
+                            <td>
+                                <a href="#line_22" onclick="switchLine('line_22'); new Effect.Highlight('line_22-31', {duration: 1.5}); return false">
+                                Not covered</a>
+                            </td>
+                            <td>
+                                Coverage                            </td>
+                            <td>
+                                Notice                            </td>
+                        </tr>
+                        
+                        <tr class="Coverage">
+                            <td align="center">
+                                <a href="#line_37" onclick="switchLine('line_37')">
+                                37</a>
+                            </td>
+                            <td align="center">
+                                <a href="#line_41" onclick="switchLine('line_37'); new Effect.Highlight('line_37-41', {duration: 1.5}); return false">
+                                41</a>
+                            </td>
+                            <td>
+                                <a href="#line_37" onclick="switchLine('line_37'); new Effect.Highlight('line_37-41', {duration: 1.5}); return false">
+                                Not covered</a>
+                            </td>
+                            <td>
+                                Coverage                            </td>
+                            <td>
+                                Notice                            </td>
+                        </tr>
+                        
+                        <tr class="Coverage">
+                            <td align="center">
+                                <a href="#line_48" onclick="switchLine('line_48')">
+                                48</a>
+                            </td>
+                            <td align="center">
+                                <a href="#line_55" onclick="switchLine('line_48'); new Effect.Highlight('line_48-55', {duration: 1.5}); return false">
+                                55</a>
+                            </td>
+                            <td>
+                                <a href="#line_48" onclick="switchLine('line_48'); new Effect.Highlight('line_48-55', {duration: 1.5}); return false">
+                                Not covered</a>
+                            </td>
+                            <td>
+                                Coverage                            </td>
+                            <td>
+                                Notice                            </td>
+                        </tr>
+                        
+                        <tr class="Coverage">
+                            <td align="center">
+                                <a href="#line_62" onclick="switchLine('line_62')">
+                                62</a>
+                            </td>
+                            <td align="center">
+                                <a href="#line_76" onclick="switchLine('line_62'); new Effect.Highlight('line_62-76', {duration: 1.5}); return false">
+                                76</a>
+                            </td>
+                            <td>
+                                <a href="#line_62" onclick="switchLine('line_62'); new Effect.Highlight('line_62-76', {duration: 1.5}); return false">
+                                Not covered</a>
+                            </td>
+                            <td>
+                                Coverage                            </td>
+                            <td>
+                                Notice                            </td>
+                        </tr>
+                        
+                        <tr class="Coverage">
+                            <td align="center">
+                                <a href="#line_22" onclick="switchLine('line_22')">
+                                22</a>
+                            </td>
+                            <td align="center">
+                                <a href="#line_31" onclick="switchLine('line_22'); new Effect.Highlight('line_22-31', {duration: 1.5}); return false">
+                                31</a>
+                            </td>
+                            <td>
+                                <a href="#line_22" onclick="switchLine('line_22'); new Effect.Highlight('line_22-31', {duration: 1.5}); return false">
+                                Not covered</a>
+                            </td>
+                            <td>
+                                Coverage                            </td>
+                            <td>
+                                Notice                            </td>
+                        </tr>
+                        
+                        <tr class="Coverage">
+                            <td align="center">
+                                <a href="#line_37" onclick="switchLine('line_37')">
+                                37</a>
+                            </td>
+                            <td align="center">
+                                <a href="#line_41" onclick="switchLine('line_37'); new Effect.Highlight('line_37-41', {duration: 1.5}); return false">
+                                41</a>
+                            </td>
+                            <td>
+                                <a href="#line_37" onclick="switchLine('line_37'); new Effect.Highlight('line_37-41', {duration: 1.5}); return false">
+                                Not covered</a>
+                            </td>
+                            <td>
+                                Coverage                            </td>
+                            <td>
+                                Notice                            </td>
+                        </tr>
+                        
+                        <tr class="Coverage">
+                            <td align="center">
+                                <a href="#line_48" onclick="switchLine('line_48')">
+                                48</a>
+                            </td>
+                            <td align="center">
+                                <a href="#line_55" onclick="switchLine('line_48'); new Effect.Highlight('line_48-55', {duration: 1.5}); return false">
+                                55</a>
+                            </td>
+                            <td>
+                                <a href="#line_48" onclick="switchLine('line_48'); new Effect.Highlight('line_48-55', {duration: 1.5}); return false">
+                                Not covered</a>
+                            </td>
+                            <td>
+                                Coverage                            </td>
+                            <td>
+                                Notice                            </td>
+                        </tr>
+                        
+                        <tr class="Coverage">
+                            <td align="center">
+                                <a href="#line_62" onclick="switchLine('line_62')">
+                                62</a>
+                            </td>
+                            <td align="center">
+                                <a href="#line_76" onclick="switchLine('line_62'); new Effect.Highlight('line_62-76', {duration: 1.5}); return false">
+                                76</a>
+                            </td>
+                            <td>
+                                <a href="#line_62" onclick="switchLine('line_62'); new Effect.Highlight('line_62-76', {duration: 1.5}); return false">
+                                Not covered</a>
+                            </td>
+                            <td>
+                                Coverage                            </td>
+                            <td>
+                                Notice                            </td>
+                        </tr>
+                        
+                        <tr class="CRAP">
+                            <td align="center">
+                                <a href="#line_21" onclick="switchLine('line_21')">
+                                21</a>
+                            </td>
+                            <td align="center">
+                                <a href="#line_21" onclick="switchLine('line_21'); new Effect.Highlight('line_21-21', {duration: 1.5}); return false">
+                                21</a>
+                            </td>
+                            <td>
+                                <a href="#line_21" onclick="switchLine('line_21'); new Effect.Highlight('line_21-21', {duration: 1.5}); return false">
+                                2</a>
+                            </td>
+                            <td>
+                                CRAP                            </td>
+                            <td>
+                                Notice                            </td>
+                        </tr>
+                        
+                        <tr class="CRAP">
+                            <td align="center">
+                                <a href="#line_36" onclick="switchLine('line_36')">
+                                36</a>
+                            </td>
+                            <td align="center">
+                                <a href="#line_36" onclick="switchLine('line_36'); new Effect.Highlight('line_36-36', {duration: 1.5}); return false">
+                                36</a>
+                            </td>
+                            <td>
+                                <a href="#line_36" onclick="switchLine('line_36'); new Effect.Highlight('line_36-36', {duration: 1.5}); return false">
+                                2</a>
+                            </td>
+                            <td>
+                                CRAP                            </td>
+                            <td>
+                                Notice                            </td>
+                        </tr>
+                        
+                        <tr class="CRAP">
+                            <td align="center">
+                                <a href="#line_47" onclick="switchLine('line_47')">
+                                47</a>
+                            </td>
+                            <td align="center">
+                                <a href="#line_47" onclick="switchLine('line_47'); new Effect.Highlight('line_47-47', {duration: 1.5}); return false">
+                                47</a>
+                            </td>
+                            <td>
+                                <a href="#line_47" onclick="switchLine('line_47'); new Effect.Highlight('line_47-47', {duration: 1.5}); return false">
+                                12</a>
+                            </td>
+                            <td>
+                                CRAP                            </td>
+                            <td>
+                                Notice                            </td>
+                        </tr>
+                        
+                        <tr class="CRAP">
+                            <td align="center">
+                                <a href="#line_61" onclick="switchLine('line_61')">
+                                61</a>
+                            </td>
+                            <td align="center">
+                                <a href="#line_61" onclick="switchLine('line_61'); new Effect.Highlight('line_61-61', {duration: 1.5}); return false">
+                                61</a>
+                            </td>
+                            <td>
+                                <a href="#line_61" onclick="switchLine('line_61'); new Effect.Highlight('line_61-61', {duration: 1.5}); return false">
+                                20</a>
+                            </td>
+                            <td>
+                                CRAP                            </td>
+                            <td>
+                                Notice                            </td>
+                        </tr>
+                        
+                        <tr class="CRAP">
+                            <td align="center">
+                                <a href="#line_21" onclick="switchLine('line_21')">
+                                21</a>
+                            </td>
+                            <td align="center">
+                                <a href="#line_21" onclick="switchLine('line_21'); new Effect.Highlight('line_21-21', {duration: 1.5}); return false">
+                                21</a>
+                            </td>
+                            <td>
+                                <a href="#line_21" onclick="switchLine('line_21'); new Effect.Highlight('line_21-21', {duration: 1.5}); return false">
+                                2</a>
+                            </td>
+                            <td>
+                                CRAP                            </td>
+                            <td>
+                                Notice                            </td>
+                        </tr>
+                        
+                        <tr class="CRAP">
+                            <td align="center">
+                                <a href="#line_36" onclick="switchLine('line_36')">
+                                36</a>
+                            </td>
+                            <td align="center">
+                                <a href="#line_36" onclick="switchLine('line_36'); new Effect.Highlight('line_36-36', {duration: 1.5}); return false">
+                                36</a>
+                            </td>
+                            <td>
+                                <a href="#line_36" onclick="switchLine('line_36'); new Effect.Highlight('line_36-36', {duration: 1.5}); return false">
+                                2</a>
+                            </td>
+                            <td>
+                                CRAP                            </td>
+                            <td>
+                                Notice                            </td>
+                        </tr>
+                        
+                        <tr class="CRAP">
+                            <td align="center">
+                                <a href="#line_47" onclick="switchLine('line_47')">
+                                47</a>
+                            </td>
+                            <td align="center">
+                                <a href="#line_47" onclick="switchLine('line_47'); new Effect.Highlight('line_47-47', {duration: 1.5}); return false">
+                                47</a>
+                            </td>
+                            <td>
+                                <a href="#line_47" onclick="switchLine('line_47'); new Effect.Highlight('line_47-47', {duration: 1.5}); return false">
+                                12</a>
+                            </td>
+                            <td>
+                                CRAP                            </td>
+                            <td>
+                                Notice                            </td>
+                        </tr>
+                        
+                        <tr class="CRAP">
+                            <td align="center">
+                                <a href="#line_61" onclick="switchLine('line_61')">
+                                61</a>
+                            </td>
+                            <td align="center">
+                                <a href="#line_61" onclick="switchLine('line_61'); new Effect.Highlight('line_61-61', {duration: 1.5}); return false">
+                                61</a>
+                            </td>
+                            <td>
+                                <a href="#line_61" onclick="switchLine('line_61'); new Effect.Highlight('line_61-61', {duration: 1.5}); return false">
+                                20</a>
+                            </td>
+                            <td>
+                                CRAP                            </td>
+                            <td>
+                                Notice                            </td>
+                        </tr>
+                                            </tbody>
+                </table>
+            </div>
+            <script type="text/javascript" language="javascript">
+                $(initReview);
+            </script>
+                    </div>
+    </body>
+</html>

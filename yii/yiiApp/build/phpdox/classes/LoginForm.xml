@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.de/src#" full="LoginForm" namespace="" name="LoginForm" abstract="false" final="false" start="8" end="77">
+  <file path="protected/models" file="LoginForm.php" realpath="/vagrant/yii/yiiApp/protected/models/LoginForm.php" size="1779" time="2013-07-30T17:17:16-05:00" unixtime="1375222636" sha1="be0fd9d1ab007a9975b5cde92b73b7816afe4001"/>
+  <docblock>
+    <description compact="LoginForm class.">LoginForm is the data structure for keeping
+user login form data. It is used by the 'login' action of 'SiteController'.</description>
+  </docblock>
+  <extends full="CFormModel" namespace="" name="CFormModel"/>
+  <member name="username" type="{unknown}" visibility="public"/>
+  <member name="password" type="{unknown}" visibility="public"/>
+  <member name="rememberMe" type="{unknown}" visibility="public"/>
+  <member name="_identity" type="{unknown}" visibility="private"/>
+  <method name="rules" start="21" end="31" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Declares the validation rules.">The rules state that username and password are required,
+and password needs to be authenticated.</description>
+    </docblock>
+  </method>
+  <method name="attributeLabels" start="36" end="41" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Declares attribute labels."/>
+    </docblock>
+  </method>
+  <method name="authenticate" start="47" end="55" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Authenticates the password.">This is the 'authenticate' validator as declared in rules().</description>
+    </docblock>
+    <parameter name="attribute" byreference="false" type="{unknown}"/>
+    <parameter name="params" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="login" start="61" end="76" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Logs in the user using the given username and password in the model."/>
+      <return description="whether login is successful" type="boolean"/>
+    </docblock>
+  </method>
+</class>

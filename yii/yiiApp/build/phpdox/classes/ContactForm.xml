@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.de/src#" full="ContactForm" namespace="" name="ContactForm" abstract="false" final="false" start="8" end="42">
+  <file path="protected/models" file="ContactForm.php" realpath="/vagrant/yii/yiiApp/protected/models/ContactForm.php" size="969" time="2013-07-30T17:17:16-05:00" unixtime="1375222636" sha1="a4e813c59ccd36634bdab1fec2d828f689049c52"/>
+  <docblock>
+    <description compact="ContactForm class.">ContactForm is the data structure for keeping
+contact form data. It is used by the 'contact' action of 'SiteController'.</description>
+  </docblock>
+  <extends full="CFormModel" namespace="" name="CFormModel"/>
+  <member name="name" type="{unknown}" visibility="public"/>
+  <member name="email" type="{unknown}" visibility="public"/>
+  <member name="subject" type="{unknown}" visibility="public"/>
+  <member name="body" type="{unknown}" visibility="public"/>
+  <member name="verifyCode" type="{unknown}" visibility="public"/>
+  <method name="rules" start="19" end="29" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Declares the validation rules."/>
+    </docblock>
+  </method>
+  <method name="attributeLabels" start="36" end="41" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Declares customized attribute labels.">If not declared here, an attribute would have a label that is
+the same as its name with the first letter in upper case.</description>
+    </docblock>
+  </method>
+</class>

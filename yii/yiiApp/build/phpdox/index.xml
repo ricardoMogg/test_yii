@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<index xmlns="http://xml.phpdox.de/src#">
+  <namespace name="">
+    <class name="Controller" src="protected/components/Controller.php" xml="classes/Controller.xml"/>
+    <class name="UserIdentity" src="protected/components/UserIdentity.php" xml="classes/UserIdentity.xml"/>
+    <class name="SiteController" src="protected/controllers/SiteController.php" xml="classes/SiteController.xml"/>
+    <class name="ContactForm" src="protected/models/ContactForm.php" xml="classes/ContactForm.xml"/>
+    <class name="LoginForm" src="protected/models/LoginForm.php" xml="classes/LoginForm.xml"/>
+    <class name="SiteTest" src="protected/tests/functional/SiteTest.php" xml="classes/SiteTest.xml"/>
+    <class name="WebTestCase" src="protected/tests/WebTestCase.php" xml="classes/WebTestCase.xml"/>
+  </namespace>
+</index>

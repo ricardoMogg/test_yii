@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.de/src#" full="SiteController" namespace="" name="SiteController" abstract="false" final="false" start="3" end="109">
+  <file path="protected/controllers" file="SiteController.php" realpath="/vagrant/yii/yiiApp/protected/controllers/SiteController.php" size="2675" time="2013-07-30T17:17:16-05:00" unixtime="1375222636" sha1="221eabfa281eedec4f88084991297663d8739fe4"/>
+  <extends full="Controller" namespace="" name="Controller"/>
+  <method name="actions" start="8" end="22" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Declares class-based actions."/>
+    </docblock>
+  </method>
+  <method name="actionIndex" start="28" end="33" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="This is the default 'index' action that is invoked when an action is not explicitly requested by users."/>
+    </docblock>
+  </method>
+  <method name="actionError" start="38" end="47" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="This is the action to handle external exceptions."/>
+    </docblock>
+  </method>
+  <method name="actionContact" start="52" end="73" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Displays the contact page"/>
+    </docblock>
+  </method>
+  <method name="actionLogin" start="78" end="99" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Displays the login page"/>
+    </docblock>
+  </method>
+  <method name="actionLogout" start="104" end="108" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Logs out the current user and redirect to homepage."/>
+    </docblock>
+  </method>
+  <parent full="Controller" namepsace="" name="Controller">
+    <extends full="CController" namespace="" name="CController"/>
+    <member name="layout" type="string" default="" visibility="public">
+      <docblock>
+        <description compact=""/>
+        <var description="the default layout for the controller view. Defaults to '//layouts/column1'," type="string">meaning using a single column layout. See 'protected/views/layouts/column1.php'.</var>
+      </docblock>
+    </member>
+    <member name="menu" type="array" visibility="public">
+      <docblock>
+        <description compact=""/>
+        <var description="context menu items. This property will be assigned to {@link CMenu::items}." type="array"/>
+      </docblock>
+    </member>
+    <member name="breadcrumbs" type="array" visibility="public">
+      <docblock>
+        <description compact=""/>
+        <var description="the breadcrumbs of the current page. The value of this property will" type="array">be assigned to <invalid xmlns="http://xml.phpdox.de/src#" annotation="link" value="CBreadcrumbs::links"/>. Please refer to <invalid xmlns="http://xml.phpdox.de/src#" annotation="link" value="CBreadcrumbs::links"/>for more details on how to specify this property.
+</var>
+      </docblock>
+    </member>
+  </parent>
+</class>

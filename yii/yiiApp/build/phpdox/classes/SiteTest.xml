@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.de/src#" full="SiteTest" namespace="" name="SiteTest" abstract="false" final="false" start="3" end="47">
+  <file path="protected/tests/functional" file="SiteTest.php" realpath="/vagrant/yii/yiiApp/protected/tests/functional/SiteTest.php" size="1400" time="2013-07-30T17:17:16-05:00" unixtime="1375222636" sha1="1d45747dc03628b0b1f2337dc5f9ba3dfa521d08"/>
+  <extends full="WebTestCase" namespace="" name="WebTestCase"/>
+  <method name="testIndex" start="5" end="9" abstract="false" final="false" static="false" visibility="public"/>
+  <method name="testContact" start="11" end="22" abstract="false" final="false" static="false" visibility="public"/>
+  <method name="testLoginLogout" start="24" end="46" abstract="false" final="false" static="false" visibility="public"/>
+  <parent full="WebTestCase" namepsace="" name="WebTestCase">
+    <extends full="CWebTestCase" namespace="" name="CWebTestCase"/>
+    <method name="setUp" start="20" end="24" abstract="false" final="false" static="false" visibility="protected">
+      <docblock>
+        <description compact="Sets up before each test method runs.">This mainly sets the base URL for the test application.</description>
+      </docblock>
+    </method>
+  </parent>
+</class>

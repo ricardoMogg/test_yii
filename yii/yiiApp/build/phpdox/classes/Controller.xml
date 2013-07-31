@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.de/src#" full="Controller" namespace="" name="Controller" abstract="false" final="false" start="6" end="23">
+  <file path="protected/components" file="Controller.php" realpath="/vagrant/yii/yiiApp/protected/components/Controller.php" size="811" time="2013-07-30T17:17:16-05:00" unixtime="1375222636" sha1="6d567e0d71f5abe84f6387547c490875ded419a4"/>
+  <docblock>
+    <description compact="Controller is the customized base controller class.">All controller classes for this application should extend from this base class.</description>
+  </docblock>
+  <extends full="CController" namespace="" name="CController"/>
+  <member name="layout" type="string" default="" visibility="public">
+    <docblock>
+      <description compact=""/>
+      <var description="the default layout for the controller view. Defaults to '//layouts/column1'," type="string">meaning using a single column layout. See 'protected/views/layouts/column1.php'.</var>
+    </docblock>
+  </member>
+  <member name="menu" type="array" visibility="public">
+    <docblock>
+      <description compact=""/>
+      <var description="context menu items. This property will be assigned to {@link CMenu::items}." type="array"/>
+    </docblock>
+  </member>
+  <member name="breadcrumbs" type="array" visibility="public">
+    <docblock>
+      <description compact=""/>
+      <var description="the breadcrumbs of the current page. The value of this property will" type="array">be assigned to <invalid xmlns="http://xml.phpdox.de/src#" annotation="link" value="CBreadcrumbs::links"/>. Please refer to <invalid xmlns="http://xml.phpdox.de/src#" annotation="link" value="CBreadcrumbs::links"/>for more details on how to specify this property.
+</var>
+    </docblock>
+  </member>
+  <extender full="SiteController" namespace="" name="SiteController"/>
+</class>

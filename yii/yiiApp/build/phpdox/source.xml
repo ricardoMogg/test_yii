@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<source xmlns="http://xml.phpdox.de/src#">
+  <dir name="protected">
+    <dir name="components">
+      <file name="Controller.php" size="811" time="2013-07-30T17:17:16-05:00" unixtime="1375222636" sha1="6d567e0d71f5abe84f6387547c490875ded419a4"/>
+      <file name="UserIdentity.php" size="929" time="2013-07-30T17:17:16-05:00" unixtime="1375222636" sha1="309d052b37540b88799685eee28f2252734403c9"/>
+    </dir>
+    <dir name="config">
+      <file name="console.php" size="858" time="2013-07-30T17:17:16-05:00" unixtime="1375222636" sha1="0b06a57b96cddfdcf64b5f5cc972215f0a634717"/>
+      <file name="main.php" size="2229" time="2013-07-30T17:17:16-05:00" unixtime="1375222636" sha1="e608188da7e089a396228c8b7591d59bf56e4be7"/>
+      <file name="test.php" size="331" time="2013-07-30T17:17:16-05:00" unixtime="1375222636" sha1="c1a28526088946881029766428feb8a9fe3c890b"/>
+    </dir>
+    <dir name="controllers">
+      <file name="SiteController.php" size="2675" time="2013-07-30T17:17:16-05:00" unixtime="1375222636" sha1="221eabfa281eedec4f88084991297663d8739fe4"/>
+    </dir>
+    <dir name="models">
+      <file name="ContactForm.php" size="969" time="2013-07-30T17:17:16-05:00" unixtime="1375222636" sha1="a4e813c59ccd36634bdab1fec2d828f689049c52"/>
+      <file name="LoginForm.php" size="1779" time="2013-07-30T17:17:16-05:00" unixtime="1375222636" sha1="be0fd9d1ab007a9975b5cde92b73b7816afe4001"/>
+    </dir>
+    <dir name="tests">
+      <file name="bootstrap.php" size="266" time="2013-07-30T17:17:16-05:00" unixtime="1375222636" sha1="b8f182401cddfe567155046b36a76fd5de23724c"/>
+      <dir name="functional">
+        <file name="SiteTest.php" size="1400" time="2013-07-30T17:17:16-05:00" unixtime="1375222636" sha1="1d45747dc03628b0b1f2337dc5f9ba3dfa521d08"/>
+      </dir>
+      <file name="WebTestCase.php" size="676" time="2013-07-31T11:58:30-05:00" unixtime="1375289910" sha1="2f2a565afe10d00fb3dfc370dfbbdfb82289b136"/>
+    </dir>
+    <dir name="views">
+      <dir name="layouts">
+        <file name="column1.php" size="181" time="2013-07-30T17:17:16-05:00" unixtime="1375222636" sha1="cf798044191887a5fedf3f3bab5cf988f7dea485"/>
+        <file name="column2.php" size="530" time="2013-07-30T17:17:16-05:00" unixtime="1375222636" sha1="653c63f94bc8931febb06f44fd7a13b0b363bc3e"/>
+        <file name="main.php" size="2223" time="2013-07-30T17:17:16-05:00" unixtime="1375222636" sha1="4cd9e9bc144662619f91f31d113dfd6144ebf6e5"/>
+      </dir>
+      <dir name="site">
+        <file name="contact.php" size="2149" time="2013-07-30T17:17:16-05:00" unixtime="1375222636" sha1="151f5fb7ef950d43f76c79771960de38d2db03d2"/>
+        <file name="error.php" size="256" time="2013-07-30T17:17:16-05:00" unixtime="1375222636" sha1="ae25b3734bc5a2499d7fc6bc70d196c9ee184bd6"/>
+        <file name="index.php" size="722" time="2013-07-30T17:17:16-05:00" unixtime="1375222636" sha1="afcc2d940c0c9685196358984d7b47cfc2a6d760"/>
+        <file name="login.php" size="1363" time="2013-07-30T17:17:16-05:00" unixtime="1375222636" sha1="0032346f2bd2673a3e3bc10caf62ea1b0aff50b2"/>
+        <dir name="pages">
+          <file name="about.php" size="276" time="2013-07-30T17:17:16-05:00" unixtime="1375222636" sha1="f14e2a9731260590f37fceec7fe3bea83869954c"/>
+        </dir>
+      </dir>
+    </dir>
+    <file name="yiic.php" size="174" time="2013-07-30T17:17:16-05:00" unixtime="1375222636" sha1="7f891c6780bee20fc2e5dee009a70b25fa6fb2e2"/>
+  </dir>
+</source>

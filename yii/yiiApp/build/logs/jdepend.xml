@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PDepend>
+  <Packages>
+    <Package name="+global">
+      <Stats>
+        <TotalClasses>14</TotalClasses>
+        <ConcreteClasses>14</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>0</Ce>
+        <A>0</A>
+        <I>0</I>
+        <D>1</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/vagrant/yii/yiiApp/protected/components/Controller.php">Controller</Class>
+        <Class sourceFile="/vagrant/yii/yiiApp/protected/components/UserIdentity.php">UserIdentity</Class>
+        <Class sourceFile="/vagrant/yii/yiiApp/protected/controllers/SiteController.php">SiteController</Class>
+        <Class sourceFile="/vagrant/yii/yiiApp/protected/models/ContactForm.php">ContactForm</Class>
+        <Class sourceFile="/vagrant/yii/yiiApp/protected/models/LoginForm.php">LoginForm</Class>
+        <Class sourceFile="/vagrant/yii/yiiApp/protected/tests/WebTestCase.php">WebTestCase</Class>
+        <Class sourceFile="/vagrant/yii/yiiApp/protected/tests/functional/SiteTest.php">SiteTest</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon/>
+      <UsedBy/>
+    </Package>
+  </Packages>
+  <Cycles/>
+</PDepend>
